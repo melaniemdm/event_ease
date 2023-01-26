@@ -1,6 +1,6 @@
 import Header from '../Header';
 import './style.scss';
-import inscription from '../../asset/inscription.svg'
+//import inscription from '../../asset/inscription.svg'
 export default function SignUp(){
     return  <section id="contactMe">  
     <Header/>
