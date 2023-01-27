@@ -2,7 +2,6 @@
 margin-right: 50px;
 margin-top: -110px;
 color: white;
-
 }
 
 .navigate{
@@ -35,4 +34,17 @@ color: white;
   li:hover {
     background: #eee;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 700px) {
+    
+        .navItem {
+            font-size: 10px;
+            padding: 5px;
+            width: auto;
+            
+            &:hover{
+                font-size: 12px;
+            }
+        }
   }
