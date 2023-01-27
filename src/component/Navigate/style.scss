@@ -1,16 +1,4 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-body {
-	width: 100%;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	overflow: scroll;
-}
+
 .menu {
 	display: flex;
 	justify-content: space-around;
@@ -22,7 +10,7 @@ body {
 	border-radius: 15px;
 	background: lightgrey;
 }
-a {
+.nav-item {
 	text-decoration: none;
 	font-family: sans-serif;
 	text-transform: lowercase;
