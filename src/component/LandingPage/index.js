@@ -31,9 +31,10 @@ export default function LandingPage(){
 
 
     <p className="text-mute">Not a member? 
-    <Link to="/inscrption" className='SignUp'>Sign up
+    <Link to="/inscription" className='SignUp'>Sign up
     </Link></p>
-
+    <Link to="/profile" className='SignUp'>profile
+    </Link>
   </main>
   <div className="welcome-container">
     <h1 className="heading-secondary">Welcome to <span className="lg">EVENT EASE !</span></h1>
