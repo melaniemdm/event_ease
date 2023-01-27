@@ -1,0 +1,25 @@
+.calendarStyle{
+  //position: relative;   
+  z-index: 5;
+  float: right;
+  margin-right: -300px;
+}
+
+.calendarContainer{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.calendar{
+    height: 300px;
+    width: 300px;
+    background-color:rgb(246, 173, 239);
+}
+
+.event1 td, .event1 th{
+    border: 1px solid black;
+    width:200px;
+    text-align: center;
+}
