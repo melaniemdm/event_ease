@@ -31,7 +31,7 @@ function renderCalendar(){
             date.setHours(0,0,0,0);
             
             let dayClass = date.getTime()===today.getTime() ? 'current-day' : 'month-day';
-            console.log(dayClass);
+            
             calendarDays.innerHTML += `<div class='${dayClass}'>${day}</div>`;
         }else{
             // adding next month days
