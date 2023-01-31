@@ -4,28 +4,19 @@ export default function NewEvent(){
     return <div className='formEventPages'> <Header/>
     <div class="containerFormNewEvent">
   <h1 className='titleNewEvent'>Création d'un nouvel Event</h1>
-  <form action="/action_page.php"> 
-    <label for="ftitre">Titre</label>
-    <input type="text" id="ftitre" name="titreEvent" placeholder="Titre de votre invitation"/>
+  <iframe
+          src="https://tally.so/embed/mYj68q?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
 
-    <label for="sujet">Lieu</label>
-    <input type="text" id="lieu" name="lieu" placeholder="Lieu de votre invitation"/>
-
-    <label for="fname">Votre nom</label>
-    <input type="text" id="fname" name="name" placeholder="Titre de votre invitation"/>
-
-    <label for="emailAddress">Email</label>
-    <input id="emailAddress" type="email" name="email" placeholder="Votre email"/>
+          frameBorder="0"
+          marginHeight="0"
+          marginWidth="0"
+          title="new event">
+        </iframe>
 
 
-    <label for="emailAddressParticipants">Participants</label>
-    <input id="emailAddressParticipants" type="email" name="email" placeholder="Email des participants" />
 
-    <label for="subject">Message</label>
-    <textarea id="subject" name="subject" placeholder="Votre message" ></textarea>
 
-    <input type="submit" value="Envoyer"/>
-  </form>
+
 </div>
     
     
