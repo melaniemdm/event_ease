@@ -10,7 +10,8 @@ export default function NewEvent(){
           frameBorder="0"
           marginHeight="0"
           marginWidth="0"
-          title="new event">
+          title="new event"
+          id='formNewEventItem'>
         </iframe>
 
 

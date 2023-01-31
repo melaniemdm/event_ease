@@ -1,20 +1,25 @@
 .formEventPages{
     background: black;
+height: 1290px;
    }
-   
+
+  #formNewEventItem{
+    height: 900px;
+    
+  }
   .containerFormNewEvent {
         /* Ajouter box-sizing */
-    
+     
     border-radius:5px;
     background-color:#f2f2f2;
     padding:20px;
   
     /* redéfinition 400 + 2*20 */
-    max-width: 540px;
+    max-width: 840px;
     margin : 60px auto;
-    margin:0 auto;
+    
   }
   .titleNewEvent  {
     color: #ff13a7;
-    width: 100%;
+   
   }
